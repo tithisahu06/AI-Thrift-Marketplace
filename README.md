@@ -65,4 +65,5 @@ rewear-ai/
 ├── ai/
 ├── public/
 ├── docs/
+├── images/
 └── README.md
