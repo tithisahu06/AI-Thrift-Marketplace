@@ -1,4 +1,4 @@
-# 👕 ReWear AI — AI Powered Thrift Marketplace
+# 👕 ReWear AI 
 
 An AI-powered sustainable fashion marketplace where users can buy, sell, and swap pre-owned clothes while getting smart AI-based recommendations and pricing insights.
 
