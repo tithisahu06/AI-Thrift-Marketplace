@@ -49,7 +49,6 @@ ReWear AI aims to make sustainable fashion accessible, affordable, and intellige
 - MongoDB
 
 ### AI Integration
-- OpenAI API
 - Gemini API
 - Image classification models
 
