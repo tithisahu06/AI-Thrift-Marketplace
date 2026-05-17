@@ -6,7 +6,7 @@ An AI-powered sustainable fashion marketplace where users can **buy, sell, swap,
 
 ---
 
-# 🌍 Our Vision
+# 🌍 Vision
 
 The fashion industry is one of the largest contributors to pollution and textile waste worldwide. Millions of wearable clothes end up in landfills every year because sustainable alternatives often feel inconvenient, outdated, or inaccessible.
 
