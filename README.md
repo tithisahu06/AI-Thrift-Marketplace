@@ -216,12 +216,4 @@ ReWear AI is not just a college project — it has startup potential with scalab
 ✅ Scalable Startup-Oriented Architecture
 ✅ Real-World Social & Environmental Impact
 
----
 
-# 💡 Tagline Ideas
-
-* *Wear Smart. Waste Less.*
-* *Fashion That Lives Longer.*
-* *Sustainable Style Powered by AI.*
-* *Reimagine Fashion Sustainably.*
-* *Your AI-Powered Thrift Companion.*
