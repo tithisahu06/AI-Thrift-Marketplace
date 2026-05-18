@@ -88,11 +88,6 @@ Reducing manual effort during uploads.
 
 ---
 
-## 📊 Personalized User Feed
-
-Every user gets a unique shopping experience powered by recommendation systems and behavioral analysis.
-
----
 
 ## 🪞 Future Scope: AI Virtual Try-On
 
