@@ -162,20 +162,6 @@ rewear-ai/
 └── README.md
 ```
 
----
-
-# 🎯 Problem Statement
-
-Fast fashion encourages overconsumption and generates enormous environmental waste. Existing thrift platforms often lack:
-
-* Intelligent recommendations
-* Modern user experience
-* Fair pricing systems
-* Sustainable engagement
-
-**ReWear AI** solves these problems by combining sustainability with artificial intelligence.
-
----
 
 # 🌱 Sustainability Impact
 
