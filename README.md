@@ -99,7 +99,6 @@ Planned integration of AI-powered virtual try-on technology to help users visual
 
 * ⚡ Fast & responsive interface
 * 🎨 Modern clean UI/UX
-* 📱 Fully mobile-friendly
 * 🔍 Advanced search & filtering
 * 🌙 Smooth animations & interactions
 * 🧭 Easy navigation for buyers & sellers
