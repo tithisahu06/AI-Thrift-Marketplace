@@ -36,10 +36,6 @@ Explore trendy, affordable thrift collections from verified users.
 
 Upload products easily with AI-assisted categorization and pricing suggestions.
 
-### 🔄 Swap Outfits
-
-Exchange clothes directly with other users to promote circular fashion.
-
 ### ❤️ Wishlist & Saved Collections
 
 Save favorite items and create personalized fashion collections.
