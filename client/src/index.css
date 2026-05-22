@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-sans bg-cream text-charcoal min-h-screen overflow-x-hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-sand rounded-full; }
+}
+
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply bg-rust text-warm-white font-sans text-sm font-medium rounded-full px-7 py-3 
+           border-none cursor-pointer transition-all duration-200 hover:bg-rust-dark hover:-translate-y-px;
+  }
+  .btn-secondary {
+    @apply bg-charcoal text-warm-white font-sans text-sm font-medium rounded-full px-7 py-3 
+           border-none cursor-pointer transition-all duration-200 hover:bg-rust hover:-translate-y-px;
+  }
+  .btn-outline {
+    @apply bg-transparent text-warm-white font-sans text-sm font-normal rounded-full px-7 py-3 
+           border border-white/30 cursor-pointer transition-all duration-200 
+           hover:border-white hover:bg-white/5;
+  }
+  .btn-ghost {
+    @apply bg-cream text-charcoal font-sans text-sm rounded-full px-5 py-2.5
+           border border-black/10 cursor-pointer transition-all duration-200
+           hover:bg-sand hover:border-rust/30;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-warm-white border border-black/[0.08] rounded-2xl shadow-card;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-card-hover transition-all duration-200;
+  }
+
+  /* Form elements */
+  .form-input {
+    @apply w-full px-3.5 py-2.5 bg-cream border border-black/[0.1] rounded-xl
+           font-sans text-[13.5px] text-charcoal outline-none
+           focus:border-rust transition-colors duration-200 placeholder:text-muted;
+  }
+  .form-select {
+    @apply w-full px-3.5 py-2.5 bg-cream border border-black/[0.1] rounded-xl
+           font-sans text-[13.5px] text-charcoal outline-none
+           focus:border-rust transition-colors duration-200;
+  }
+  .form-textarea {
+    @apply w-full px-3.5 py-2.5 bg-cream border border-black/[0.1] rounded-xl
+           font-sans text-[13.5px] text-charcoal outline-none leading-relaxed resize-y min-h-[100px]
+           focus:border-rust transition-colors duration-200 placeholder:text-muted;
+  }
+  .form-label {
+    @apply text-xs text-muted mb-1.5 block;
+  }
+
+  /* Badges */
+  .badge-ai {
+    @apply absolute top-2.5 right-2.5 bg-rust text-white text-[9px] font-bold
+           tracking-widest uppercase px-2 py-0.5 rounded-full;
+  }
+  .badge-cond {
+    @apply text-[10px] font-semibold tracking-wide px-2 py-0.5 rounded-full bg-moss-light text-moss;
+  }
+  .badge-cond.fair {
+    @apply bg-amber-100 text-amber-800;
+  }
+
+  /* Nav */
+  .nav-link {
+    @apply text-[13.5px] text-muted cursor-pointer transition-colors duration-200 relative
+           hover:text-charcoal;
+  }
+  .nav-link.active {
+    @apply text-charcoal font-medium;
+  }
+
+  /* Section */
+  .section-title {
+    @apply font-serif text-[22px] font-bold text-charcoal;
+  }
+  .section-title span {
+    @apply italic text-rust;
+  }
+
+  /* Category pill */
+  .cat-pill {
+    @apply px-4 py-2 rounded-full text-[13px] font-medium cursor-pointer
+           border border-black/10 bg-warm-white text-charcoal
+           transition-all duration-200 whitespace-nowrap
+           hover:bg-charcoal hover:text-warm-white hover:border-charcoal;
+  }
+  .cat-pill.active {
+    @apply bg-charcoal text-warm-white border-charcoal;
+  }
+
+  /* Toast */
+  .toast-wrap {
+    @apply fixed bottom-6 right-6 z-[999] pointer-events-none;
+  }
+
+  /* AI indicator */
+  .ai-indicator {
+    @apply flex items-center gap-2 border border-rust/20 rounded-xl
+           px-3.5 py-2.5 text-[12.5px] text-rust mb-3.5;
+    background: rgba(196,98,45,0.08);
+  }
+}
+
+/* Scrollbar for chat */
+.chat-scroll::-webkit-scrollbar { width: 3px; }
+.chat-scroll::-webkit-scrollbar-thumb { background: rgba(253,250,245,0.15); border-radius: 2px; }
